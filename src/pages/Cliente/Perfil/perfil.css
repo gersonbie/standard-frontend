@@ -16,9 +16,10 @@
 .profile-footer .logout {
   background-color: white;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: min-content;
 }
 .profile-footer .logout:hover {
-  color: var(--main-blue);
+  color: white;
 }
 .profile-footer {
   background: linear-gradient(90deg, #e4eff3 0%, #def7ff 100%);
