@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const REQUEST_TIMEOUT = 90 * 1000;
 export const APIKit = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://standard-backend.herokuapp.com",
   timeout: REQUEST_TIMEOUT,
 });
 
